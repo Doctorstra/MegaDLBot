@@ -7,9 +7,9 @@
         "telegram",
         "mega.nz bot"
     ],
-    "website": "https://youtube.com/channel/UCKcntT2R8QNJaRwhnQIgRfA",
-    "repository": "https://github.com/mrkpbots/MegaDL-Bot",
-    "success_url": "https://t.me/mrkpbots",
+    "website": "https://t.me/Dads_links",
+    "repository": "https://github.com/Doctorstra/MegaDLBot",
+    "success_url": "https://t.me/DADS_LINKS_MegaDLBot",
     "env": {
         "API_ID": {
             "description": "Your API_ID from my.telegram.org",
