@@ -1,5 +1,5 @@
-# (c) MRKP BOTS
-# A Part of MegaDL-Bot <https://github.com/mrkpbots/MegaDL-Bot>
+# (c) Doctorstra
+# A Part of MegaDL-Bot <https://github.com/Doctorstra/MegaDLBot>
 
 import os
 import asyncio
@@ -18,7 +18,7 @@ if __name__ == "__main__" :
         plugins=plugins
     )
     app.start()
-    print('\n\n>>> MegaDL-Bot Started. Join @mrkpbots!')
+    print('\n\n>>> MegaDL-Bot Started. Join @Dads_links!')
     idle()
     app.stop()
-    print('\n\n>>> MegaDL-Bot Stopped. Join @mrkpbots!')
+    print('\n\n>>> MegaDL-Bot Stopped. Join @Dads_links!')
