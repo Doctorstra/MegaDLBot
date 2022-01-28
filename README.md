@@ -12,7 +12,7 @@
 [![Bot Updates](https://img.shields.io/badge/MegaDL-Bot%20Updates-blue)](https://t.me/mrkpbots)
 [![Bot Support](https://img.shields.io/badge/MegaDL-Bot%20Support%20Group-blue)](https://t.me/mrkphelp)
 
-A Simple Telegram Bot By @mrkpbots to Download Files From Mega.nz and Upload It to Telegram
+A Simple Telegram Bot By @Dads_links to Download Files From Mega.nz and Upload It to Telegram
 
 # Features
 - No Login Required
@@ -24,19 +24,19 @@ A Simple Telegram Bot By @mrkpbots to Download Files From Mega.nz and Upload It 
 - And More Features Coming Soon ...
 
 # Demo 
-<a href="https://youtube.com/channel/UCKcntT2R8QNJaRwhnQIgRfA"><img src="https://img.shields.io/badge/MegaDL_Bot-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://t.me/DADS_LINKS_MegaDLBot"><img src="https://img.shields.io/badge/MegaDL_Bot-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 
 # Deploy
 Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 
 ### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrkpbots/MegaDL-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Doctorstra/MegaDLBot)
 
 ### Self Host
 
 - Clone the Repo
 ```
-git clone https://github.com/mrkpbots/MegaDL-Bot
+git clone https://github.com/Doctorstra/MegaDLBot
 ```
 - Enter the directory
 ```
@@ -54,7 +54,7 @@ python3 main.py
 # License
 ```
 MegaDL-Bot, An Telegram Bot Project
-Copyright (c) 2021  MRKP BOTS <https://github.com/mrkpbots>
+Copyright (c) 2021  MRKP BOTS <https://github.com/Doctorstra>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -71,8 +71,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 ```
 
 # Support 
-<a href="https://t.me/mrkphelp"><img src="https://img.shields.io/badge/Support_Group-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a> <a href="https://t.me/mrkpbots"><img src="https://img.shields.io/badge/Updates_Channel-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://t.me/Dads_links"><img src="https://img.shields.io/badge/Support_Group-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a> <a href="https://t.me/Dads_links"><img src="https://img.shields.io/badge/Updates_Channel-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 
 ## CREDITS
 
-- [MRKP BOTS](https://github.com/mrkpbots)
+- [Doctorstra](https://github.com/Doctorstra)
