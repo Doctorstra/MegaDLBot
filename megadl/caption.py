@@ -1,5 +1,5 @@
-# (c) MRKP BOTS
-# A Part of MegaDL-Bot <https://github.com/mrkpbots/MegaDL-Bot>
+# (c) Doctorstra
+# A Part of MegaDL-Bot <https://github.com/Doctorstra/MegaDLBot>
 
 import os
 from config import Config
