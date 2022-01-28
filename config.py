@@ -1,5 +1,5 @@
-# (c) MRKP BOTS
-# A Part of MegaDL-Bot <https://github.com/mrkpbots/MegaDL-Bot>
+# (c) Doctorstra
+# A Part of MegaDL-Bot <https://github.com/Doctorstra/MegaDLBot>
 
 
 import os
@@ -25,11 +25,11 @@ class TEXT:
 
 📡 **Hosted On:** [Heroku](https://heroku.com)
 
-🧑‍💻 **Developer:** [RAJESH SAINI](https://t.me/rajeshsaini2115)
+🧑‍💻 **Developer:** [RAJESH SAINI](https://t.me/Dads_links)
 
-👥 **Support Group:** [MRKP HELP](https://t.me/mrkphelp)
+👥 **Support Group:** [MRKP HELP](https://t.me/Dads_links)
 
-📢 **Updates Channel:** [MRKP ＢＯＴＳ](https://t.me/mrkpbots)
+📢 **Updates Channel:** [MRKP ＢＯＴＳ](https://t.me/Dads_links)
 """
 
   HELP_USER = """
@@ -37,7 +37,7 @@ This is **{bot_name}**
 
 This Bot Can Download Files & Videos From Mega Links & Upload To Telegram. Just Send Any Mega.nz Link & See The Magic. You Can Also Add or Change Caption: Just Select An Uploaded File/ Video or Forward Me Any Telegram File & Then Write The Text You Want To Be Caption On The File As A Reply To That File & The Text You Wrote Will Be Attached As Caption 😁! 
 
-**Made With ❤️ By @mrkpbots! 👑**
+**Made With ❤️ By @Dads_links! 👑**
 """
 
   START_TEXT = """
