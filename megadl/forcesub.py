@@ -1,5 +1,5 @@
-# (c) MRKP BOTS
-# A Part of MegaDL-Bot <https://github.com/mrkphelp/MegaDL-Bot>
+# (c) Doctorstra
+# A Part of MegaDL-Bot <https://github.com/Doctorstra/MegaDLBot>
 
 import asyncio
 from config import Config
@@ -19,7 +19,7 @@ async def handle_force_subscribe(bot, message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=message.from_user.id,
-                text="Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/mrkphelp).",
+                text="Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/Dads_links).",
                 parse_mode="markdown",
                 disable_web_page_preview=True,
                 reply_to_message_id=message.message_id,
@@ -46,7 +46,7 @@ async def handle_force_subscribe(bot, message):
     except Exception:
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="Something Went Wrong. Contact My [Support Group](https://t.me/mrkphelp).",
+            text="Something Went Wrong. Contact My [Support Group](https://t.me/Dads_links).",
             parse_mode="markdown",
             disable_web_page_preview=True,
             reply_to_message_id=message.message_id,
