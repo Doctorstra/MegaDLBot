@@ -1,5 +1,5 @@
-# (c) MRKP BOTS
-# A Part of MegaDL-Bot <https://github.com/mrkphelp/MegaDL-Bot>
+# (c) Doctorstra
+# A Part of MegaDL-Bot <https://github.com/Doctorstra/MegaDLBot>
 
 import os
 import time
@@ -99,7 +99,7 @@ async def megadl(bot, message):
         if not guessedfilemime.mime:
             await download_msg.edit("**Trying To Upload ...** \n**Can't Get File Type, Sending as Document!")
             mrkp = await message.reply_document(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await mrkp.reply_text(f"**Join @mrkphelp! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@mrkphelp's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/mrkphelp/173**")]]), reply_to_message_id=mrkp.message_id)
+            await mrkp.reply_text(f"**Join @Dads_links! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@Dads_links's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/Dads_links/32**")]]), reply_to_message_id=mrkp.message_id)
             await download_msg.delete()
             await trace_msg.edit(f"#MegaDL: Upload Done! \n\n{user_info}")
             shutil.rmtree(basedir + "/" + userpath)
@@ -109,14 +109,14 @@ async def megadl(bot, message):
         if "image/gif" in filemimespotted:
             await download_msg.edit("**Trying To Upload ...**")
             mrkp = await message.reply_animation(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await mrkp.reply_text(f"**Join @mrkphelp! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@mrkphelp's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/mrkphelp/173**")]]), reply_to_message_id=mrkp.message_id)
+            await mrkp.reply_text(f"**Join @Dads_links! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@Dads_links's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/Dads_links/32**")]]), reply_to_message_id=mrkp.message_id)
             await download_msg.delete()
             await trace_msg.edit(f"#MegaDL: Upload Done! \n\n{user_info}")
         # Checking if it's a image
         elif "image" in filemimespotted:
             await download_msg.edit("**Trying To Upload ...**")
             mrkp = await message.reply_photo(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await mrkp.reply_text(f"**Join @mrkphelp! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@mrkphelp's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/mrkphelp/173**")]]), reply_to_message_id=mrkp.message_id)
+            await mrkp.reply_text(f"**Join @Dads_links! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@Dads_links's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/Dads_links/32**")]]), reply_to_message_id=mrkp.message_id)
             await download_msg.delete()
             await trace_msg.edit(f"#MegaDL: Upload Done! \n\n{user_info}")
         # Checking if it's a video
@@ -127,21 +127,21 @@ async def megadl(bot, message):
             thumbnail_path = f"{alreadylol}/thumbnail.jpg"
             subprocess.call(['ffmpeg', '-i', magapylol, '-ss', '00:00:10.000', '-vframes', '1', thumbnail_path])
             mrkp = await message.reply_video(magapylol, duration=vidduration, thumb=thumbnail_path, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await mrkp.reply_text(f"**Join @mrkphelp! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@mrkphelp's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/mrkphelp/173**")]]), reply_to_message_id=mrkp.message_id)
+            await mrkp.reply_text(f"**Join @Dads_links! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@Dads_links's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/Dads_links/32**")]]), reply_to_message_id=mrkp.message_id)
             await download_msg.delete()
             await trace_msg.edit(f"#MegaDL: Upload Done! \n\n{user_info}")
         # Checking if it's a audio
         elif "audio" in filemimespotted:
             await download_msg.edit("**Trying To Upload ...**")
             mrkp = await message.reply_audio(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await mrkp.reply_text(f"**Join @mrkphelp! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@mrkphelp's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/mrkphelp/173**")]]), reply_to_message_id=mrkp.message_id)
+            await mrkp.reply_text(f"**Join @Dads_links! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@Dads_links's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/Dads_links/32**")]]), reply_to_message_id=mrkp.message_id)
             await download_msg.delete()
             await trace_msg.edit(f"#MegaDL: Upload Done! \n\n{user_info}")
         # If it's not a image/video or audio it'll reply it as doc
         else:
             await download_msg.edit("**Trying To Upload ...**")
             mrkp = await message.reply_document(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await mrkp.reply_text(f"**Join @mrkphelp! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@mrkphelp's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/mrkphelp/173**")]]), reply_to_message_id=mrkp.message_id)
+            await mrkp.reply_text(f"**Join @Dads_links! \nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@Dads_links's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/Dads_links/32**")]]), reply_to_message_id=mrkp.message_id)
             await download_msg.delete()
             await trace_msg.edit(f"#MegaDL: Upload Done! \n\n{user_info}")
     try:
